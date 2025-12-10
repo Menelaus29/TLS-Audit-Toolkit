@@ -1,0 +1,865 @@
+[
+  {
+    "host": "example.com",
+    "port": 443,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "cert": {
+      "subject": "CN=*.example.com,O=Internet Corporation for Assigned Names and Numbers,L=Los Angeles,ST=California,C=US",
+      "common_name": "*.example.com",
+      "issuer": "CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1,O=DigiCert Inc,C=US",
+      "not_before": "2025-01-15T00:00:00+00:00",
+      "not_after": "2026-01-15T23:59:59+00:00",
+      "serial_number": "14416812407440461216471976375640436634",
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "san": [
+        "*.example.com",
+        "example.com"
+      ],
+      "pubkey_type": "EC",
+      "pubkey_size": 256,
+      "sha256_fingerprint": "455943cf819425761d1f950263ebf54755d8d684c25535943976f488bc79d23b"
+    },
+    "issues": []
+  },
+  {
+    "host": "google.com",
+    "port": 443,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "cert": {
+      "subject": "CN=*.google.com",
+      "common_name": "*.google.com",
+      "issuer": "CN=WE2,O=Google Trust Services,C=US",
+      "not_before": "2025-11-24T08:39:00+00:00",
+      "not_after": "2026-02-16T08:38:59+00:00",
+      "serial_number": "10509904741497374078752147448849789737",
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "san": [
+        "*.google.com",
+        "*.appengine.google.com",
+        "*.bdn.dev",
+        "*.origin-test.bdn.dev",
+        "*.cloud.google.com",
+        "*.crowdsource.google.com",
+        "*.datacompute.google.com",
+        "*.google.ca",
+        "*.google.cl",
+        "*.google.co.in",
+        "*.google.co.jp",
+        "*.google.co.uk",
+        "*.google.com.ar",
+        "*.google.com.au",
+        "*.google.com.br",
+        "*.google.com.co",
+        "*.google.com.mx",
+        "*.google.com.tr",
+        "*.google.com.vn",
+        "*.google.de",
+        "*.google.es",
+        "*.google.fr",
+        "*.google.hu",
+        "*.google.it",
+        "*.google.nl",
+        "*.google.pl",
+        "*.google.pt",
+        "*.googleapis.cn",
+        "*.googlevideo.com",
+        "*.gstatic.cn",
+        "*.gstatic-cn.com",
+        "googlecnapps.cn",
+        "*.googlecnapps.cn",
+        "googleapps-cn.com",
+        "*.googleapps-cn.com",
+        "gkecnapps.cn",
+        "*.gkecnapps.cn",
+        "googledownloads.cn",
+        "*.googledownloads.cn",
+        "recaptcha.net.cn",
+        "*.recaptcha.net.cn",
+        "recaptcha-cn.net",
+        "*.recaptcha-cn.net",
+        "widevine.cn",
+        "*.widevine.cn",
+        "ampproject.org.cn",
+        "*.ampproject.org.cn",
+        "ampproject.net.cn",
+        "*.ampproject.net.cn",
+        "google-analytics-cn.com",
+        "*.google-analytics-cn.com",
+        "googleadservices-cn.com",
+        "*.googleadservices-cn.com",
+        "googlevads-cn.com",
+        "*.googlevads-cn.com",
+        "googleapis-cn.com",
+        "*.googleapis-cn.com",
+        "googleoptimize-cn.com",
+        "*.googleoptimize-cn.com",
+        "doubleclick-cn.net",
+        "*.doubleclick-cn.net",
+        "*.fls.doubleclick-cn.net",
+        "*.g.doubleclick-cn.net",
+        "doubleclick.cn",
+        "*.doubleclick.cn",
+        "*.fls.doubleclick.cn",
+        "*.g.doubleclick.cn",
+        "dartsearch-cn.net",
+        "*.dartsearch-cn.net",
+        "googletraveladservices-cn.com",
+        "*.googletraveladservices-cn.com",
+        "googletagservices-cn.com",
+        "*.googletagservices-cn.com",
+        "googletagmanager-cn.com",
+        "*.googletagmanager-cn.com",
+        "googlesyndication-cn.com",
+        "*.googlesyndication-cn.com",
+        "*.safeframe.googlesyndication-cn.com",
+        "app-measurement-cn.com",
+        "*.app-measurement-cn.com",
+        "gvt1-cn.com",
+        "*.gvt1-cn.com",
+        "gvt2-cn.com",
+        "*.gvt2-cn.com",
+        "2mdn-cn.net",
+        "*.2mdn-cn.net",
+        "googleflights-cn.net",
+        "*.googleflights-cn.net",
+        "admob-cn.com",
+        "*.admob-cn.com",
+        "*.gemini.cloud.google.com",
+        "googlesandbox-cn.com",
+        "*.googlesandbox-cn.com",
+        "*.safenup.googlesandbox-cn.com",
+        "*.gstatic.com",
+        "*.metric.gstatic.com",
+        "*.gvt1.com",
+        "*.gcpcdn.gvt1.com",
+        "*.gvt2.com",
+        "*.gcp.gvt2.com",
+        "*.url.google.com",
+        "*.youtube-nocookie.com",
+        "*.ytimg.com",
+        "ai.android",
+        "android.com",
+        "*.android.com",
+        "*.flash.android.com",
+        "g.cn",
+        "*.g.cn",
+        "g.co",
+        "*.g.co",
+        "goo.gl",
+        "www.goo.gl",
+        "google-analytics.com",
+        "*.google-analytics.com",
+        "google.com",
+        "googlecommerce.com",
+        "*.googlecommerce.com",
+        "ggpht.cn",
+        "*.ggpht.cn",
+        "urchin.com",
+        "*.urchin.com",
+        "youtu.be",
+        "youtube.com",
+        "*.youtube.com",
+        "music.youtube.com",
+        "*.music.youtube.com",
+        "youtubeeducation.com",
+        "*.youtubeeducation.com",
+        "youtubekids.com",
+        "*.youtubekids.com",
+        "yt.be",
+        "*.yt.be",
+        "android.clients.google.com",
+        "*.android.google.cn",
+        "*.chrome.google.cn",
+        "*.developers.google.cn",
+        "*.aistudio.google.com"
+      ],
+      "pubkey_type": "EC",
+      "pubkey_size": 256,
+      "sha256_fingerprint": "c2c988dd54fdb5026f54c80ab8b02d609c6975bdf9ff6740e162daabefd46238"
+    },
+    "issues": []
+  },
+  {
+    "host": "cloudflare.com",
+    "port": 443,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "cert": {
+      "subject": "CN=cloudflare.com",
+      "common_name": "cloudflare.com",
+      "issuer": "CN=WE1,O=Google Trust Services,C=US",
+      "not_before": "2025-11-14T20:28:36+00:00",
+      "not_after": "2026-02-12T21:28:32+00:00",
+      "serial_number": "315658834188478261496433866245437835189",
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "san": [
+        "cloudflare.com",
+        "ns.cloudflare.com",
+        "*.ns.cloudflare.com",
+        "*.secondary.cloudflare.com",
+        "secondary.cloudflare.com"
+      ],
+      "pubkey_type": "EC",
+      "pubkey_size": 256,
+      "sha256_fingerprint": "dad41622d84a85573e24d9e6690604865670259055a635a01f6ed7ea971007ab"
+    },
+    "issues": []
+  },
+  {
+    "host": "openai.com",
+    "port": 443,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "cert": {
+      "subject": "CN=openai.com",
+      "common_name": "openai.com",
+      "issuer": "CN=WE1,O=Google Trust Services,C=US",
+      "not_before": "2025-11-25T02:42:43+00:00",
+      "not_after": "2026-02-23T03:42:41+00:00",
+      "serial_number": "105140435404672788664141984854026942631",
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "san": [
+        "openai.com",
+        "*.openai.com"
+      ],
+      "pubkey_type": "EC",
+      "pubkey_size": 256,
+      "sha256_fingerprint": "91c7be40f6211248f5774650d1903b8127ceae453646016194d9aa77c60b99e3"
+    },
+    "issues": []
+  },
+  {
+    "host": "hust.edu.vn",
+    "port": 443,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_CHACHA20_POLY1305_SHA256",
+      "TLSv1.3",
+      256
+    ],
+    "cert": {
+      "subject": "CN=hust.edu.vn,O=Hanoi University of Science and Technology,L=Ha Noi,ST=Ha Noi,C=VN",
+      "common_name": "hust.edu.vn",
+      "issuer": "CN=GlobalSign RSA OV SSL CA 2018,O=GlobalSign nv-sa,C=BE",
+      "not_before": "2025-05-21T09:02:13+00:00",
+      "not_after": "2026-06-22T02:56:00+00:00",
+      "serial_number": "12439066328404468165317976160",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "hust.edu.vn",
+        "*.hust.edu.vn"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "6ca5a007224ac406d2621aa3e478cb11a0bd433b9b470b329f8d37ad032d92b5"
+    },
+    "issues": []
+  },
+  {
+    "host": "exam.hustack.soict.ai",
+    "port": 443,
+    "protocol": "TLSv1.2",
+    "cipher": [
+      "ECDHE-ECDSA-AES256-GCM-SHA384",
+      "TLSv1.2",
+      256
+    ],
+    "cert": {
+      "subject": "CN=exam.hustack.soict.ai",
+      "common_name": "exam.hustack.soict.ai",
+      "issuer": "CN=E7,O=Let's Encrypt,C=US",
+      "not_before": "2025-10-12T11:22:08+00:00",
+      "not_after": "2026-01-10T11:22:07+00:00",
+      "serial_number": "447488889284609775771015026843488484888771",
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "san": [
+        "exam.hustack.soict.ai"
+      ],
+      "pubkey_type": "EC",
+      "pubkey_size": 256,
+      "sha256_fingerprint": "5b8340c50aa414f8630308610bd6ca1e2c4c26f6b8d648fca33cdf793c50c699"
+    },
+    "issues": [
+      {
+        "id": "protocol-old",
+        "severity": "info",
+        "desc": "Server negotiated TLS 1.2 \u2014 acceptable but prefer TLS 1.3."
+      },
+      {
+        "id": "cert-near-expiry",
+        "severity": "warning",
+        "desc": "Certificate expires in 30 days on 2026-01-10T11:22:07+00:00"
+      }
+    ]
+  },
+  {
+    "host": "expired.badssl.com",
+    "port": 443,
+    "protocol": "TLSv1.2",
+    "cipher": [
+      "ECDHE-RSA-AES128-GCM-SHA256",
+      "TLSv1.2",
+      128
+    ],
+    "cert": {
+      "subject": "CN=*.badssl.com,OU=PositiveSSL Wildcard,OU=Domain Control Validated",
+      "common_name": "*.badssl.com",
+      "issuer": "CN=COMODO RSA Domain Validation Secure Server CA,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+      "not_before": "2015-04-09T00:00:00+00:00",
+      "not_after": "2015-04-12T23:59:59+00:00",
+      "serial_number": "99565320202650452861752791156765321481",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "ba105ce02bac76888ecee47cd4eb7941653e9ac993b61b2eb3dcc82014d21b4f"
+    },
+    "issues": [
+      {
+        "id": "protocol-old",
+        "severity": "info",
+        "desc": "Server negotiated TLS 1.2 \u2014 acceptable but prefer TLS 1.3."
+      },
+      {
+        "id": "cert-expired",
+        "severity": "critical",
+        "desc": "Certificate expired on 2015-04-12T23:59:59+00:00"
+      }
+    ]
+  },
+  {
+    "host": "wrong.host.badssl.com",
+    "port": 443,
+    "protocol": "TLSv1.2",
+    "cipher": [
+      "ECDHE-RSA-AES128-GCM-SHA256",
+      "TLSv1.2",
+      128
+    ],
+    "cert": {
+      "subject": "CN=*.badssl.com",
+      "common_name": "*.badssl.com",
+      "issuer": "CN=R13,O=Let's Encrypt,C=US",
+      "not_before": "2025-11-18T20:02:47+00:00",
+      "not_after": "2026-02-16T20:02:46+00:00",
+      "serial_number": "510629548250236095186295203531548426161282",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "174b587ac25a0e44bc6bb36abb4e90b52a4b846510084166372cf9f917844f9b"
+    },
+    "issues": [
+      {
+        "id": "protocol-old",
+        "severity": "info",
+        "desc": "Server negotiated TLS 1.2 \u2014 acceptable but prefer TLS 1.3."
+      }
+    ]
+  },
+  {
+    "host": "sha1-intermediate.badssl.com",
+    "port": 443,
+    "protocol": "TLSv1.2",
+    "cipher": [
+      "ECDHE-RSA-AES128-GCM-SHA256",
+      "TLSv1.2",
+      128
+    ],
+    "cert": {
+      "subject": "CN=*.badssl.com,OU=COMODO SSL Wildcard,OU=Domain Control Validated",
+      "common_name": "*.badssl.com",
+      "issuer": "CN=COMODO SSL CA,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+      "not_before": "2017-04-13T00:00:00+00:00",
+      "not_after": "2020-05-30T23:59:59+00:00",
+      "serial_number": "252554666223771156455823023473219786930",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "500a77e0eb1ff3492ee6a407499699f36e44d15e72f67a4035074172b0d71771"
+    },
+    "issues": [
+      {
+        "id": "protocol-old",
+        "severity": "info",
+        "desc": "Server negotiated TLS 1.2 \u2014 acceptable but prefer TLS 1.3."
+      },
+      {
+        "id": "cert-expired",
+        "severity": "critical",
+        "desc": "Certificate expired on 2020-05-30T23:59:59+00:00"
+      }
+    ]
+  },
+  {
+    "host": "rc4.badssl.com",
+    "port": 443,
+    "protocol": null,
+    "cipher": null,
+    "cert": {
+      "error": "no_certificate"
+    },
+    "issues": [
+      {
+        "id": "protocol-unknown",
+        "severity": "warning",
+        "desc": "Could not determine negotiated TLS protocol"
+      },
+      {
+        "id": "cipher-unknown",
+        "severity": "warning",
+        "desc": "Could not determine cipher suite"
+      },
+      {
+        "id": "cert-missing",
+        "severity": "critical",
+        "desc": "Certificate missing or could not be parsed"
+      }
+    ]
+  },
+  {
+    "host": "dh1024.badssl.com",
+    "port": 443,
+    "protocol": null,
+    "cipher": null,
+    "cert": {
+      "error": "no_certificate"
+    },
+    "issues": [
+      {
+        "id": "protocol-unknown",
+        "severity": "warning",
+        "desc": "Could not determine negotiated TLS protocol"
+      },
+      {
+        "id": "cipher-unknown",
+        "severity": "warning",
+        "desc": "Could not determine cipher suite"
+      },
+      {
+        "id": "cert-missing",
+        "severity": "critical",
+        "desc": "Certificate missing or could not be parsed"
+      }
+    ]
+  },
+  {
+    "host": "tls-v1-0.badssl.com",
+    "port": 443,
+    "protocol": "TLSv1.2",
+    "cipher": [
+      "ECDHE-RSA-AES128-GCM-SHA256",
+      "TLSv1.2",
+      128
+    ],
+    "cert": {
+      "subject": "CN=*.badssl.com",
+      "common_name": "*.badssl.com",
+      "issuer": "CN=R13,O=Let's Encrypt,C=US",
+      "not_before": "2025-11-18T20:02:47+00:00",
+      "not_after": "2026-02-16T20:02:46+00:00",
+      "serial_number": "510629548250236095186295203531548426161282",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "174b587ac25a0e44bc6bb36abb4e90b52a4b846510084166372cf9f917844f9b"
+    },
+    "issues": [
+      {
+        "id": "protocol-old",
+        "severity": "info",
+        "desc": "Server negotiated TLS 1.2 \u2014 acceptable but prefer TLS 1.3."
+      }
+    ]
+  },
+  {
+    "host": "tls-v1-1.badssl.com",
+    "port": 443,
+    "protocol": "TLSv1.2",
+    "cipher": [
+      "ECDHE-RSA-AES128-GCM-SHA256",
+      "TLSv1.2",
+      128
+    ],
+    "cert": {
+      "subject": "CN=*.badssl.com",
+      "common_name": "*.badssl.com",
+      "issuer": "CN=R13,O=Let's Encrypt,C=US",
+      "not_before": "2025-11-18T20:02:47+00:00",
+      "not_after": "2026-02-16T20:02:46+00:00",
+      "serial_number": "510629548250236095186295203531548426161282",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "174b587ac25a0e44bc6bb36abb4e90b52a4b846510084166372cf9f917844f9b"
+    },
+    "issues": [
+      {
+        "id": "protocol-old",
+        "severity": "info",
+        "desc": "Server negotiated TLS 1.2 \u2014 acceptable but prefer TLS 1.3."
+      }
+    ]
+  },
+  {
+    "host": "incomplete-chain.badssl.com",
+    "port": 443,
+    "protocol": "TLSv1.2",
+    "cipher": [
+      "ECDHE-RSA-AES128-GCM-SHA256",
+      "TLSv1.2",
+      128
+    ],
+    "cert": {
+      "subject": "CN=*.badssl.com",
+      "common_name": "*.badssl.com",
+      "issuer": "CN=R13,O=Let's Encrypt,C=US",
+      "not_before": "2025-11-18T20:02:47+00:00",
+      "not_after": "2026-02-16T20:02:46+00:00",
+      "serial_number": "510629548250236095186295203531548426161282",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "174b587ac25a0e44bc6bb36abb4e90b52a4b846510084166372cf9f917844f9b"
+    },
+    "issues": [
+      {
+        "id": "protocol-old",
+        "severity": "info",
+        "desc": "Server negotiated TLS 1.2 \u2014 acceptable but prefer TLS 1.3."
+      }
+    ]
+  },
+  {
+    "host": "http.badssl.com",
+    "port": 443,
+    "protocol": "TLSv1.2",
+    "cipher": [
+      "ECDHE-RSA-AES128-GCM-SHA256",
+      "TLSv1.2",
+      128
+    ],
+    "cert": {
+      "subject": "CN=*.badssl.com",
+      "common_name": "*.badssl.com",
+      "issuer": "CN=R13,O=Let's Encrypt,C=US",
+      "not_before": "2025-11-18T20:02:47+00:00",
+      "not_after": "2026-02-16T20:02:46+00:00",
+      "serial_number": "510629548250236095186295203531548426161282",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "174b587ac25a0e44bc6bb36abb4e90b52a4b846510084166372cf9f917844f9b"
+    },
+    "issues": [
+      {
+        "id": "protocol-old",
+        "severity": "info",
+        "desc": "Server negotiated TLS 1.2 \u2014 acceptable but prefer TLS 1.3."
+      }
+    ]
+  },
+  {
+    "host": "upgrade.badssl.com",
+    "port": 443,
+    "protocol": "TLSv1.2",
+    "cipher": [
+      "ECDHE-RSA-AES128-GCM-SHA256",
+      "TLSv1.2",
+      128
+    ],
+    "cert": {
+      "subject": "CN=*.badssl.com",
+      "common_name": "*.badssl.com",
+      "issuer": "CN=R13,O=Let's Encrypt,C=US",
+      "not_before": "2025-11-18T20:02:47+00:00",
+      "not_after": "2026-02-16T20:02:46+00:00",
+      "serial_number": "510629548250236095186295203531548426161282",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "174b587ac25a0e44bc6bb36abb4e90b52a4b846510084166372cf9f917844f9b"
+    },
+    "issues": [
+      {
+        "id": "protocol-old",
+        "severity": "info",
+        "desc": "Server negotiated TLS 1.2 \u2014 acceptable but prefer TLS 1.3."
+      }
+    ]
+  },
+  {
+    "host": "smtp.gmail.com:587",
+    "port": 587,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "cert": {
+      "subject": "CN=smtp.gmail.com",
+      "common_name": "smtp.gmail.com",
+      "issuer": "CN=WE2,O=Google Trust Services,C=US",
+      "not_before": "2025-10-27T08:35:01+00:00",
+      "not_after": "2026-01-19T08:35:00+00:00",
+      "serial_number": "183687545108066141099144803349806773054",
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "san": [
+        "smtp.gmail.com"
+      ],
+      "pubkey_type": "EC",
+      "pubkey_size": 256,
+      "sha256_fingerprint": "56a8c48ff51ce74d53212d04cdd48de1a6f768d4c69f8582c2717255153c653e"
+    },
+    "issues": []
+  },
+  {
+    "host": "outlook.office365.com:587",
+    "port": 587,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "cert": {
+      "subject": "CN=outlook.com,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US",
+      "common_name": "outlook.com",
+      "issuer": "CN=DigiCert Cloud Services CA-1,O=DigiCert Inc,C=US",
+      "not_before": "2025-11-10T00:00:00+00:00",
+      "not_after": "2026-11-09T23:59:59+00:00",
+      "serial_number": "7523036606523261364507311410122337010",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "*.clo.footprintdns.com",
+        "*.hotmail.com",
+        "*.internal.outlook.com",
+        "*.live.com",
+        "*.nrb.footprintdns.com",
+        "*.office.com",
+        "*.office365.com",
+        "*.outlook.com",
+        "*.outlook.office365.com",
+        "attachment.outlook.live.net",
+        "attachment.outlook.office.net",
+        "attachment.outlook.officeppe.net",
+        "attachments.office.net",
+        "attachments-sdf.office.net",
+        "ccs.login.microsoftonline.com",
+        "ccs-sdf.login.microsoftonline.com",
+        "hotmail.com",
+        "mail.services.live.com",
+        "office365.com",
+        "outlook.com",
+        "outlook.office.com",
+        "substrate.office.com",
+        "substrate-sdf.office.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "3935bfccec8880e3c45bdedf90cf5d287fe6380d1abd72b6d306e3f64fcd3aa4"
+    },
+    "issues": []
+  },
+  {
+    "host": "smtp.mail.yahoo.com:587",
+    "port": 587,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_128_GCM_SHA256",
+      "TLSv1.3",
+      128
+    ],
+    "cert": {
+      "subject": "CN=smtp.mail.yahoo.com,O=Yahoo Holdings Inc.,L=New York,ST=New York,C=US",
+      "common_name": "smtp.mail.yahoo.com",
+      "issuer": "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+      "not_before": "2025-10-14T00:00:00+00:00",
+      "not_after": "2026-04-08T23:59:59+00:00",
+      "serial_number": "9023314923538186750114005715964633788",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "smtp.mail.yahoo.com",
+        "smtp.mail.yahoo.com.ar",
+        "smtp.mail.yahoo.com.au",
+        "smtp.mail.yahoo.com.br",
+        "smtp.mail.yahoo.com.cn",
+        "smtp.mail.yahoo.com.hk",
+        "smtp.mail.yahoo.com.my",
+        "smtp.mail.yahoo.com.ph",
+        "smtp.mail.yahoo.com.sg",
+        "smtp.mail.yahoo.com.tw",
+        "smtp.mail.yahoo.com.vn",
+        "smtp.mail.yahoo.co.id",
+        "smtp.mail.yahoo.co.in",
+        "smtp.mail.yahoo.co.kr",
+        "smtp.mail.yahoo.co.th",
+        "smtp.mail.yahoo.co.uk",
+        "smtp.mail.yahoo.ca",
+        "smtp.mail.yahoo.cn",
+        "smtp.mail.yahoo.de",
+        "smtp.mail.yahoo.fr",
+        "smtp.mail.yahoo.it",
+        "smtp.y7mail.com",
+        "smtp.correo.yahoo.es"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "e7a6a3b4cfb57f925aed26498423219939b659687cacc3ebe47ef0c931d845e2"
+    },
+    "issues": []
+  },
+  {
+    "host": "imap.gmail.com:993",
+    "port": 993,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "cert": {
+      "subject": "CN=imap.gmail.com",
+      "common_name": "imap.gmail.com",
+      "issuer": "CN=WE2,O=Google Trust Services,C=US",
+      "not_before": "2025-10-27T08:35:00+00:00",
+      "not_after": "2026-01-19T08:34:59+00:00",
+      "serial_number": "279568414310328548303958407210289159475",
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "san": [
+        "imap.gmail.com"
+      ],
+      "pubkey_type": "EC",
+      "pubkey_size": 256,
+      "sha256_fingerprint": "83335d620270e0f98cdf0228aa0c482b6dfba18f0522a123542a149e5546c753"
+    },
+    "issues": []
+  },
+  {
+    "host": "pop.mail.yahoo.com:995",
+    "port": 995,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_256_GCM_SHA384",
+      "TLSv1.3",
+      256
+    ],
+    "cert": {
+      "subject": "CN=legacy.pop.mail.yahoo.com,O=Yahoo Holdings Inc.,L=New York,ST=New York,C=US",
+      "common_name": "legacy.pop.mail.yahoo.com",
+      "issuer": "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+      "not_before": "2025-10-14T00:00:00+00:00",
+      "not_after": "2026-04-08T23:59:59+00:00",
+      "serial_number": "3754042559192738529836911519356128122",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "legacy.pop.mail.yahoo.com",
+        "pop.mail.yahoo.com",
+        "*.pop.mail.yahoo.com",
+        "pop.bizmail.yahoo.com",
+        "pop.mail.yahoo.com.ar",
+        "pop.mail.yahoo.com.au",
+        "pop.mail.yahoo.com.br",
+        "pop.mail.yahoo.com.hk",
+        "pop.mail.yahoo.com.my",
+        "pop.mail.yahoo.com.ph",
+        "pop.mail.yahoo.com.sg",
+        "pop.mail.yahoo.com.tw",
+        "pop.mail.yahoo.com.vn",
+        "pop.mail.yahoo.co.id",
+        "pop.mail.yahoo.co.in",
+        "pop.mail.yahoo.co.kr",
+        "pop.mail.yahoo.co.th",
+        "pop.mail.yahoo.co.uk",
+        "pop.mail.yahoo.ca",
+        "pop.mail.yahoo.de",
+        "pop.mail.yahoo.fr",
+        "pop.mail.yahoo.in",
+        "pop.mail.yahoo.it",
+        "pop.correo.yahoo.es",
+        "pop.y7mail.com",
+        "pop.att.yahoo.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "5343cdacfdb1820edd51a217a31d36e17430e406db5e860ba2e4f93cfbf12ed9"
+    },
+    "issues": []
+  },
+  {
+    "host": "neverssl.com",
+    "port": 443,
+    "protocol": "TLSv1.3",
+    "cipher": [
+      "TLS_AES_128_GCM_SHA256",
+      "TLSv1.3",
+      128
+    ],
+    "cert": {
+      "subject": "CN=neverssl.com",
+      "common_name": "neverssl.com",
+      "issuer": "CN=Amazon RSA 2048 M04,O=Amazon,C=US",
+      "not_before": "2025-07-09T00:00:00+00:00",
+      "not_after": "2026-08-07T23:59:59+00:00",
+      "serial_number": "9963880098231298681019577454441717948",
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "san": [
+        "neverssl.com",
+        "*.neverssl.com"
+      ],
+      "pubkey_type": "RSA",
+      "pubkey_size": 2048,
+      "sha256_fingerprint": "1f6709c03fa7e95fb1a95b99e7e8094b1084336bcd79b447cbd6ea6d246315c3"
+    },
+    "issues": []
+  }
+]
