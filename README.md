@@ -1,5 +1,5 @@
 # TLS AUDIT TOOLKIT
-## Description
+## Overview
 
 TLS Audit Toolkit is a Python-based command-line tool designed to probe network services, extract TLS handshake information, parse X.509 certificates, detect common misconfigurations, and generate structured reports. The toolkit is Windows-friendly and fully non-intrusive. It supports direct TLS services (HTTPS, IMAPS, SMTPS, LDAPS) as well as STARTTLS-enabled protocols (SMTP, IMAP, POP3, FTP AUTH TLS).
 
