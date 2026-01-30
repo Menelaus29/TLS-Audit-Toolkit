@@ -14,14 +14,14 @@ This project is built for academic purposes only and is not intended for commerc
 - Human-readable viewer for interactive inspection
 
 ## Installation (Windows)
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-2. Open Command Prompt in the project directory.
-3. Create and activate virtual environment:
+1. Open Command Prompt in the project directory.
+2. Create and activate virtual environment:
 ```bash
 python -m venv .venv.\.venv\Scripts\activate
+```
+3. Install dependencies in the environment:
+```bash
+pip install -r requirements.txt
 ```
 
 ## Running a Scan
